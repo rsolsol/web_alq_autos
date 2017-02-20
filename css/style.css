@@ -152,7 +152,7 @@ nav {
     position:relative;
     
     background: url('../imagen/fondo4.jpg') no-repeat;
-    height: 1200px;
+    height: 1000px;
 }
 .logo_principal{
     background: url('../imagen/logo-karsam.png') no-repeat;
@@ -171,4 +171,20 @@ nav {
     /*position: fixed;*/
     width: auto;
     z-index: auto;
+}
+.contenedor3{
+    text-align: center;
+    display: flex;
+}
+.contenedor_img{
+    margin: 0 auto;
+    vertical-align: text-top;
+    width: 50%;
+}
+.contendor_parrafo{
+    color: aliceblue;
+    margin: 0 auto;
+    vertical-align: text-top;
+    width: 50%;
+    
 }
