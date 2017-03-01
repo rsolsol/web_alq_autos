@@ -4,11 +4,16 @@
     <title>Conduciendo tu vida</title>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width; initial-scale=1">
     <link rel="stylesheet" media="screen" href="css/style.css">
     <link rel="stylesheet" media="screen" href="css/iconic.css" type="text/css" />
-    <script src="prefix-free.js"></script>
+    <script  type="text/javascript" src="/js/jquery.min.js"></script>
+    <script  type="text/javascript" src="/js/jquery.smoove.min.js"></script>
+    <script src="js/aux_web.js"></script>   
+    
 </head>
 <body>
     <div class="contenedor1">
@@ -18,6 +23,7 @@
                 <li><a href="#"><span class="iconic home"></span> Inicio</a></li>
                 <li><a href="#"><span class="iconic plus-alt"></span> Acerca de</a>
                     <ul>
+                       
                         <li><a href="#">Company History</a></li>
                         <li><a href="#">Meet the team</a></li>
                     </ul>
@@ -54,8 +60,11 @@
         <div class="contenedor2"></div>
     </div>
     <div class="contenedor3">
-        <div class="contenedor_img"><img src="imagen/auto1.png" alt=""></div>
-        <div class="contendor_parrafo"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iste sint error nam sequi mollitia consequatur, optio aliquam dolores velit. Doloremque eum odit culpa impedit, id magnam in quam. Pariatur.</p></div>
+        <div class="contenedor_img" data-move-y="200px" data-move-x="-200px"><img src="imagen/auto1.png" alt=""></div>
+        <div class="contenedor_parrafo" data-move-y="-200px" data-move-x="100px"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iste sint error nam sequi mollitia consequatur, optio aliquam dolores velit. Doloremque eum odit culpa impedit, id magnam in quam. Pariatur.</p></div>
     </div>
+    <script  type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script  type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.6/jquery.smoove.min.js"></script>
+    <script>$('.contenedor_parrafo, .contenedor_img').smoove({offset:'40%'});</script>
 </body>
 </html>
