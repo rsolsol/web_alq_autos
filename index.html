@@ -3,16 +3,18 @@
 <head>
     <title>Conduciendo tu vida</title>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width; initial-scale=1">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" media="screen" href="css/style.css">
     <link rel="stylesheet" media="screen" href="css/iconic.css" type="text/css" />
     <script  type="text/javascript" src="/js/jquery.min.js"></script>
     <script  type="text/javascript" src="/js/jquery.smoove.min.js"></script>
-    <script src="js/aux_web.js"></script>   
+    <!--<script src="js/aux_web.js"></script>   -->
     
 </head>
 <body>
@@ -62,9 +64,21 @@
     <div class="contenedor3">
         <div class="contenedor_img" data-move-y="200px" data-move-x="-200px"><img src="imagen/auto1.png" alt=""></div>
         <div class="contenedor_parrafo" data-move-y="-200px" data-move-x="100px"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iste sint error nam sequi mollitia consequatur, optio aliquam dolores velit. Doloremque eum odit culpa impedit, id magnam in quam. Pariatur.</p></div>
+    </div> 
+    <div class="contenedor4" >
+       
+        <div class="puntualidad mover" data-rotate-y="270deg" data-move-x="-150%"><img src="imagen/puntualidad.png" alt="puntualidad"></div>
+        <div class="puntualidad_parrafo" ><p>Puntualidad</p></div>
+        
+       <div class="seguridad mover" data-rotate-y="270deg" data-move-x="-150%"><img src="imagen/seguridad.png" alt="seguridad"></div>
+        <div class="seguridad_parrafo" ><p>Seguridad</p></div>
+        
+      <div class="seriedad mover" data-rotate-y="270deg" data-move-x="-150%"><img src="imagen/confianza.png" alt="confianza"></div>
+        <div class="seriedad_parrafo" ><p>Seriedad</p></div>
     </div>
     <script  type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script  type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.6/jquery.smoove.min.js"></script>
-    <script>$('.contenedor_parrafo, .contenedor_img').smoove({offset:'40%'});</script>
+    <script src="/js/jquery.smoove.min.js"></script>
+    <script>$('.contenedor_img, .contenedor_parrafo, .mover').smoove({offset:'40%'});</script>
 </body>
 </html>
